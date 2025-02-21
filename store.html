@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-" id="navv" style="position: fixed; z-index: 100;width: 100%;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" id="a">Wolf System</a>
+      <button style="background-color:#FF5722;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>    <li class="nav-item">
+            <a class="nav-link" href="quiz.html">Test</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Levels
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="beginner.html">Beginner level</a></li>
+              <li><a class="dropdown-item" href="inter.html">Indtermediate level</a></li>
+              <li><a class="dropdown-item" href="adv.html"> Advanced level</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <h2  id="head2" class="btn btn-outline-success" >Rank:<span id="Rank">0</span></li></h2>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+        <main>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://st5.depositphotos.com/1001877/65274/i/1600/depositphotos_652748472-stock-photo-sports-nutrition-supplements-bodybuilding-whey.jpg" class="d-block w-100" id="imm" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://thumbs.dreamstime.com/z/sports-nutrition-supplements-chemistry-bodybuilding-gym-whey-protein-casein-bcaa-creatine-cans-sports-nutrition-195498301.jpg" id="imm" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="imm"src="https://miro.medium.com/v2/resize:fit:612/1*fSU9Sx-ShTgmcBPe2833qQ.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+      <div class="container d-flex p-2 justify-content-between flex-wrap" style="margin-top:10px;" id="card-size">
+        <div class="card" style="width: 18rem;"id="cards">
+            <img src="https://shop.biotechusa.com/cdn/shop/files/Multivitamin_ForMen_60tabs_250ml_600x600_f5c1501e-d7b1-4f5a-a8bf-68854eca7b10.png?v=1718796303" style="background-color: black;" class="card-img-top" alt="..." id="sideimg">
+            <div class="card-body">
+              <h5 class="card-title">
+                Multivitamin for Men - 60 tablets
+
+              </h5>
+              <p class="card-text">
+                Food supplement tablets containing vitamins, minerals, plant extracts and amino acids developed for men.
+
+</p>
+      
+                    
+       
+              <button id="btn" onclick="shop('10')" class="btn btn-primary"> Buy Now in 10 rank</button>      
+            </div>
+            
+          </div>
+          <div class="card" style="width: 18rem;"id="cards">
+            <img src="https://m.faithful-to-nature.co.za/media/catalog/product/cache/1/image/400x400/9df78eab33525d08d6e5fb8d27136e95/o/r/organic_health_solutions_vegan_green_collagen_building_supplement_sku67411__2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">    
+                Vegan collagen        
+              </h5>
+              <p class="card-text">
+         
+                There is no such thing as vegan collagen as collagen only exists in bodies. As a vegan you can eat citrus fruits, nuts and seeds, leafy greens, bell peppers etc to boost the collagen you already have.Jul</p>
+                <button id="btn" onclick="shop('20')" class="btn btn-primary"> Buy Now in 20 rank</button>      
+
+          </div>
+          </div>  <div class="card" style="width: 18rem;"id="cards">
+            <img src="https://m.media-amazon.com/images/I/51R9adZ0qaL.jpg" class="card-img-top" id="btn2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pre-Hd
+
+
+              </h5>
+              <p class="card-text"> 
+                PreHD Ultra is a research backed, effectively dosed, fast acting ultra premium ergogenic aid truly worthy off the title “All in one pre-workout"—Hitting you literally in a matter of minutes, PreHD Ultra delivers a training experience like nothing else on the market today.
+              </p>
+                  
+              <button id="btn" onclick="shop('25')" class="btn btn-primary"> Buy Now in 25 rank</button>      
+            </div>
+            </div>            <div class="card" style="width: 18rem;"id="cards">
+              <img src="https://images-cdn.ubuy.co.in/63dacd530bfc5857a652b88c-muscletech-mass-gainer-protein-powder.jpg class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">
+                MASS-TECH EXTREME 2000              </h5>
+              <p class="card-text">
+                The ideal macronutrient profile in MASS-TECH EXTREME 2000 is perfect for bodybuilders and other athletes who are looking to build muscle and increase strength without adding extra fat to their physique.
+                
+              </p>
+  
+                <button id="btn" onclick="shop('35')" class="btn btn-primary"> Buy Now in 35 rank</button>      
+              </div>
+            </div>              </div>
+          </div> 
+          </div></div>
+          <div class="container d-flex p-2 justify-content-between flex-wrap" id="card-size">
+            <div class="card" style="width: 18rem;"id="cards">
+                <img src="https://www.hyperforme.com/cdn/shop/files/HDMuscleCarbHDII-30ServingsPineappleBreeze_800x.jpg?v=1692195420" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">
+CARD-HD                  </h5>
+                  <p class="card-text">
+                    CARB-HD is designed to transfer more nutrients into your muscle cells to provide you with a clean, long-lasting energy supply (glycogen) while improving muscle fullness and hydration, resulting in improved muscle performance and recovery.</p>
+                    <button id="btn" onclick="shop('15')" class="btn btn-primary"> Buy Now in 15 rank</button>      
+
+                 </div>
+                </div>                 
+             
+              <div class="card" style="width: 18rem;"id="cards">
+                <img src="https://vegain.ca/cdn/shop/files/Mass_Gainer_Choco_BLK_1080.webp?v=1719771661&width=2048" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mass gainer
+                  </h5>
+                  <p class="card-text">
+                    Mass gainers are generally considered safe when used as directed and in moderation. However, overconsumption of mass gainers can lead to health issues such as weight gain, gastrointestinal discomfort, increased risk of heart disease, and elevated blood sugar levels.
+</p>
+             
+                    <button id="btn" onclick="shop('30')" class="btn btn-primary"> Buy Now in 30 rank</button>      
+                  </div>
+              </div>  <div class="card" style="width: 18rem;"id="cards">
+                <img src="https://solgar.co.uk/cdn/shop/files/omega-3-6-9_0ea7c62f-603c-4c9a-8c7a-19130b160351.png?v=1714399814" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">  Omega 3 
+                  </h5>
+              
+                  <p class="card-text">
+                    Omega 3 lowers blood pressure, reduces triglycerides in the blood, helps reduce joint inflammation in rheumatoid disease, helps nourish brain and eyes functions, helps prevent and alleviate dementia, depression, asthma, migraine and more...</p>
+                    <button id="btn" onclick="shop('40')" class="btn btn-primary"> Buy Now in 40 rank</button>      
+
+                </div>
+              </div>  <div class="card" style="width: 18rem;"id="cards">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7fzt32tsyvQBBW5ts_BZcGQJWM6qPpeSKA&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Shred Wolf Fat Killer
+
+                  </h5>
+                  <p class="card-text">
+                    They typically contain a combination of ingredients such as caffeine, green tea extract, and other thermogenics with an aim to increase metabolism and reduce appetite.
+
+
+                  </p>
+                    <button id="btn" onclick="shop('50')" class="btn btn-primary"> Buy Now in 50 rank</button>      
+
+              </div>  
+              </div></div>
+            
+            </main>
+            
+            <script src="scripts.js"></script>
+
+</body>
+</html>
