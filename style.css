@@ -218,22 +218,13 @@ margin-left: 50px;
 }
 /*store*/
 
-#carousel{
-    width: 95%;
-    margin-left: 3%;
-    
-}
- 
+
     
 
  
 
 
 
-#addtocart{
-    height: 35px;
-    width: 35px;
-}
 
 #Comments{
     width: 300px;
@@ -321,7 +312,7 @@ border-radius: 7px !important;
         background-repeat: no-repeat;
         height: 820px;
 background-image: none !important;
-width: 110% !important;
+width: 107% !important;
 background-color: var(--black);
     }
     .cont{
